@@ -1,4 +1,10 @@
 Body {
   background-color: yellowgreen;
-  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 34x;
+  color: whitesmoke;
+  line-height: 1.5;
 }
