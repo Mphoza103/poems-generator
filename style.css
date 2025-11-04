@@ -20,11 +20,26 @@ h1 {
   text-align: center;
 }
 
-form {
+.form-container {
   padding: 30px;
   background-color: plum;
   border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+form {
   display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+.hidden {
+  display: none;
 }
 
 .rules {
@@ -34,7 +49,7 @@ form {
   font-size: 16px;
   border-radius: 40px;
   line-height: 20px;
-  color: aqua;
+  color: grey;
 }
 .button {
   margin-left: 10px;
